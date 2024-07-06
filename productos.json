@@ -1,0 +1,93 @@
+[
+    {
+      "id": 0,
+      "nombre": "Chupin",
+      "precio": 21000,
+      "img": "./assets/img/jeans-chupin.jpg"
+    },
+    {
+      "id": 1,
+      "nombre": "Recto",
+      "precio": 20000,
+      "img": "./assets/img/jeans-recto.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Oxford",
+      "precio": 23500,
+      "img": "./assets/img/jeans-oxford.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Palazzo",
+      "precio": 20500,
+      "img": "./assets/img/jeans-palazzo.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Cargo",
+      "precio": 21500,
+      "img": "./assets/img/jeans-cargo.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Blazer",
+      "precio": 30000,
+      "img": "./assets/img/abrigos-blazer.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Cardigans",
+      "precio": 35000,
+      "img": "./assets/img/abrigos-cardigans.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Sweaters",
+      "precio": 32000,
+      "img": "./assets/img/abrigos-sweaters.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Camperas Dama",
+      "precio": 45000,
+      "img": "./assets/img/abrigos-camperasdama.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Camperas Juveniles",
+      "precio": 50000,
+      "img": "./assets/img/abrigos-camperasjuveniles.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Musculosas",
+      "precio": 15000,
+      "img": "./assets/img/remeras-musculosas.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Chombas",
+      "precio": 25000,
+      "img": "./assets/img/remeras-chombas.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Top",
+      "precio": 19000,
+      "img": "./assets/img/remeras-top.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Camisas",
+      "precio": 29000,
+      "img": "./assets/img/remeras-camisas.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Camisetas",
+      "precio": 21500,
+      "img": "./assets/img/remeras-camisetas.jpg"
+    }
+  ]
+  

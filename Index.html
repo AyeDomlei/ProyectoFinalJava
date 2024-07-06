@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Carrito</title>
+    <script defer src="./app/app.js"></script>
+    <style>
+        /* Estilos CSS para mejorar la apariencia */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .products, .cart {
+            margin-top: 20px;
+        }
+        #greeting {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product, .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #e9e9e9;
+            border-radius: 4px;
+        }
+        .cart-item button {
+            margin-left: 5px;
+        }
+        .input-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tienda de Ropa</h1>
+        <div class="input-container">
+            <input type="text" id="username" placeholder="Ingresa tu nombre">
+            <button onclick="saludarPorNombre()">Guardar Nombre</button>
+        </div>
+        <div id="greeting"></div>
+        <div class="button-container">
+            <button onclick="showCategory('Jeans')">Jeans</button>
+            <button onclick="showCategory('Abrigos')">Abrigos</button>
+            <button onclick="showCategory('Remeras')">Remeras</button>
+            <button onclick="viewCart()">Ver Carrito</button>
+            <button onclick="finalizePurchase()">Finalizar Compra</button>
+            <button onclick="emptyCart()">Vaciar Carrito</button>
+        </div>
+        <div id="products" class="products"></div> <!-- Esta es la sección donde se mostrarán los productos -->
+        <div id="cart" class="cart"></div> <!-- Esta es la sección donde se mostrará el carrito -->
+    </div>
+</body>
+</html>
